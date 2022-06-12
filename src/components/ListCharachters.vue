@@ -18,6 +18,7 @@ import { useStore } from "vuex";
 import CardCharacter from "../components/CardCharacter.vue";
 
 export default {
+    name:"Characters",
     components: { CardCharacter },
     setup() {
         const store = useStore();
